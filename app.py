@@ -10,7 +10,7 @@ from vertexai.preview.generative_models import (
     Part,
 )
 
-PROJECT_ID = os.environ.get("retaildomain")  # Your Google Cloud Project ID
+PROJECT_ID = os.environ.get("retaildom")  # Your Google Cloud Project ID
 LOCATION = os.environ.get("us-central1")  # Your Google Cloud Project Region
 vertexai.init(project=PROJECT_ID, location=LOCATION)
 
